@@ -1,0 +1,37 @@
+.box{
+  width:400px;
+  background: #ccc;
+  margin:10px;
+  padding:20px;
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+body{
+  width:100%;
+}
+
+header{
+  background: #c9c9c9;
+  margin-bottom: 30px;
+  padding:30px 0;
+  text-align: center;
+}
+
+.box div{
+  padding:10px;
+}
+
+.container--box .box .spinner--1 {
+	border-top: 2px solid #fff;
+	animation: spinner1 600ms linear infinite;
+}
+@keyframes spinner1 {
+	to {
+		transform: rotate(360deg);
+	}
+}
